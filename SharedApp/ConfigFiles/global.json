@@ -1,0 +1,12 @@
+﻿{
+    "CloudAccount": "your cloud storage account goes here",
+    "CloudKey": "your cloud storage account key goes here",
+    "CloudTable": "skeletalData",
+    "MeasurementTolerance": "0.05",
+    "LeastSquaresTolerance" :  "10.0",
+    "MeasurementFrameCount": "50",
+    "IrScaleRange": "200",
+    "IrScaleLow": "30",
+    "CloudBlobContainerName": "skeletalphotos",
+    "CloudRowScanSize" :  "5"
+}  

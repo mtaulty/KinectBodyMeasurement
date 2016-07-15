@@ -1,0 +1,38 @@
+﻿[
+    {
+        "Name": "Spine",
+        "Start": "SpineBase",
+        "End": "SpineShoulder",
+        "IsPartitionKey": "true"
+    },
+    {
+        "Name": "Chest",
+        "Start": "ShoulderLeft",
+        "End" :  "ShoulderRight"
+    },
+    {
+        "Name": "Waist",
+        "Start": "HipLeft",
+        "End": "HipRight"
+    },
+    {
+        "Name": "LeftUlna",
+        "Start": "WristLeft",
+        "End": "ElbowLeft"
+    },
+    {
+        "Name": "LeftHumerus",
+        "Start": "ShoulderLeft",
+        "End": "ElbowLeft"
+    },
+    {
+        "Name": "RightHumerus",
+        "Start": "ShoulderRight",
+        "End": "ElbowRight"
+    },
+    {
+        "Name": "RightUlna",
+        "Start": "WristRight",
+        "End": "ElbowRight"
+    }
+]

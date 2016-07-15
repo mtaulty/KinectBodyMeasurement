@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{9eb7d959-fd62-4080-b6d2-01e1f85cda9e}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e79688de-11ac-4aed-abc4-bc44fd87b3df</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Measurements</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BodyExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CameraSpacePointExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JointPair.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JointPairAverageMeasurement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JointPairAverageMeasurementSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JointPairMeasurement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JointPairSerialization.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NamedValue.cs" />
+  </ItemGroup>
+</Project>
